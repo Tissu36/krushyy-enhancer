@@ -1,0 +1,26 @@
+name: krushyy_enhancer
+description: Simple video enhancement app for Android.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.11.0 <4.0.0"
+  flutter: ">=3.41.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  file_picker: ^10.3.7
+  path_provider: ^2.1.5
+  share_plus: ^12.0.1
+  cross_file: ^0.3.5+2
+  ffmpeg_kit_flutter_new: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
